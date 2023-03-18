@@ -1,3 +1,6 @@
+let btn=document.getElementById("btn");
+btn.addEventListener("click",OpeningCeremony)
+
 function OpeningCeremony() {
   console.log("Let the games begin");
   setTimeout(function() {
@@ -63,4 +66,3 @@ function AwardCeremony(score) {
  
 }
 
-OpeningCeremony();
